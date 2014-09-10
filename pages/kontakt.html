@@ -3,40 +3,50 @@
     <head>
         <meta charset="utf-8" />
         <title>Min kursblogg - Kontakt</title>
-        
+        <link rel="stylesheet" href="../css/style.css" type="text/css" />
     </head>
     <body>
-        <h1>Kontakt</h1>
-        <span>Kontakta mig gärna</span>
-            
+    <div id="container">
+        <div id="header">
+            <h1>Kontakt</h1>
+            <span>Kontakta mig gärna</span>
+        </div> 
+        <div id="navigation">
             <ul>
                <li><a href="../index.html">Start</a></li>
                <li><a href="laborationer.html">Laborationer</a></li>
                <li><a href="presentation.html">Presentation</a></li>
-               <li><a href="kontakt.html">Kontakt</a></li>
-            </ul>  
-        <p>Observera detta är ett påhittat formulär</p>
-        
-        <form method="POST" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php">
-            <fieldset>
-            <legend>Fråga</legend> 
-            Ärendetyp: 
-                <select name="rullgardin">
-                    <option value="fragaett">Fråga 1</option>
-                    <option value="fragatva">Fråga 2</option>
-                </select><br />
-            Rubrik: 
-                <input type="text" value="Vad göra?" name="rubrik" /><br />
-            Fråga: <textarea>Jag sitter och testar formuläret</textarea>
-            </fieldset><br />
+               <li><a href="kontakt.html" class="active">Kontakt</a></li>
+            </ul>
+        </div>
+        <div id="content">
+            <p>Observera detta är ett påhittat formulär</p>
             
-            <fieldset>
-            <legend>Information om dig</legend>
-            Kontakta mig via mail: <input type="checkbox" name="mail" /><br />
-            Kontakta mig via telefon: <input type="checkbox" name="mail" />
-            </fieldset>
-            
-           <input type="submit" value="Skicka" />
-        </form>
+            <form method="POST" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php">
+                <fieldset>
+                <legend>Fråga</legend> 
+                Ärendetyp: 
+                    <select name="rullgardin">
+                        <option value="fragaett">Fråga 1</option>
+                        <option value="fragatva">Fråga 2</option>
+                    </select><br />
+                Rubrik: 
+                    <input type="text" value="Vad göra?" name="rubrik" /><br />
+                Fråga: <textarea>Jag sitter och testar formuläret</textarea>
+                </fieldset><br />
+                
+                <fieldset>
+                <legend>Information om dig</legend>
+                Kontakta mig via mail: <input type="checkbox" name="mail" /><br />
+                Kontakta mig via telefon: <input type="checkbox" name="mail" />
+                </fieldset>
+                
+               <input type="submit" value="Skicka" />
+            </form>
+        </div>
+        <div id="footer">
+            <p>Ansvarig för allt material är Johan Karlsson-Törndahl </p>
+        </div>
+    </div>    
     </body>
 </html>
