@@ -3,7 +3,8 @@ Mina färger
 Container, content, navigation - #666633
 Header, Footer - #666600
 Borders - #663300
-
+Länkar - #fff
+Active link - #660000
 */
 
 * {
@@ -12,6 +13,7 @@ Borders - #663300
 }
   
 body {
+    
  
 }
 
@@ -55,6 +57,7 @@ body {
 }
 
 /* Menyn */
+
 #navigation ul {
      margin:0px;
      padding:0px;
@@ -82,4 +85,31 @@ body {
 #navigation ul li .active {
    background-color:#660000; 
     
+}
+.postauthor{
+    text-align:right;
+    font-style:italic;
+}
+
+/*Typografi på sidan */
+
+h1 {
+    font-size:26px;
+    font-family:Georgia, sans-serif;
+    
+}
+h2 {
+    font-size:24px;
+    font-family:Georgia, sans-serif;
+    
+}
+h3 {
+    font-size:18px;
+    font-family:Georgia, sans-serif;
+    
+}
+a {
+    text-decoration:none;
+    font-style:bold;
+    color:#fff;
 }
