@@ -104,6 +104,7 @@ body {
 .postauthor{
     text-align:right;
     font-style:italic;
+    
 }
 .top_h1 {
     margin-top:15px;
@@ -116,9 +117,21 @@ body {
 
 .img_right{
    float:right;
-   border:1px solid #000;
-  margin:5px;
+   border:2px solid #000;
+   background-color:#dedede;
+   padding:5px;
 }
+.img_left{
+   
+   border:2px solid #000;
+   background-color:#ededed;
+   padding:5px;
+}
+.sidul {
+    list-style:none;
+    margin-top:2px;
+}
+
 /*Typografi på sidan */
 
 h1 {
@@ -146,4 +159,8 @@ p{
     font-size:14px;
     font-family:Georgia;
     padding:10px;
+}
+dl, dt, ol {
+    margin-left:5px;
+    
 }
