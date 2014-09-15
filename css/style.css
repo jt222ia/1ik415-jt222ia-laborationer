@@ -36,9 +36,8 @@ body {
 #header_logo {
     float:left;
     width:150px;
-    background-image:url(../pics/logo_trans.png);
-    background-repeat:no-repeat;
     
+   
 }
 #header_content {
     float:left;
@@ -116,7 +115,9 @@ body {
 }
 
 .img_right{
-    
+   float:right;
+   border:1px solid #000;
+  margin:5px;
 }
 /*Typografi på sidan */
 
