@@ -98,6 +98,10 @@ body {
     border-left:1px solid #663300;
     
 }
+#content p {
+  line-height:15px;
+    
+}
 
 #footer {
     clear:both; 
