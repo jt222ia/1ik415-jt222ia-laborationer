@@ -190,9 +190,11 @@ h3 {
    
 }
 a {
+    display:none;
     text-decoration:none;
     font-style:bold;
     color:#000;
+    
 }
 p{
     font-size:14px;

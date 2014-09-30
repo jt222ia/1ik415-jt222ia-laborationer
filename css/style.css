@@ -211,6 +211,9 @@ legend {
     margin-left:5px;
     
 }
+.full_lank{
+    display:none;
+}
 
 /*Typografi på sidan */
 
@@ -240,6 +243,7 @@ p{
     font-size:14px;
     font-family:Georgia;
     padding:10px;
+    
 }
 dl, dt, ol {
     margin-left:5px;
