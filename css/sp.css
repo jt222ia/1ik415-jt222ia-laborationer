@@ -87,14 +87,14 @@ body{
 
 /* Formulär på kontaktsidan */
 fieldset {
-    width:400px;
+    width:300px;
     padding:20px 0 20px 50px;
     border:1px solid #000;
-
+    margin-left:15px;
 }
 legend {
     background-color:#666600;
-   
+    
 }
 .input{
     padding:5px;
@@ -106,6 +106,7 @@ legend {
     height:40px;
     padding:1px;
     margin-top:6px;
+    margin-left:15px;
     border:1px solid #FFF;
     background-color:#666600;
 }
@@ -114,12 +115,30 @@ p {
     font-size:14px;
     line-height:15px;
     margin:0 5px 0 0;
+    padding:8px;
+}
+.kont{
+    margin-top:10px;
+}
+hr {
+    display:none;
+}
+
+table {
+    width:400px;
+    
+}
+table > thead {
+    text-align:left;
 }
 
 h3{
     text-decoration:underline;
+    margin-left:10px;
 }
-
+dl {
+    margin-left:10px;
+}
 img { 
     max-width: 100%;
    
