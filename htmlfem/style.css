@@ -70,7 +70,7 @@ body {
 .mainheader {
     height:100px;
     margin-bottom:10px;
-    background-color:#000;
+    
 }
 .top_img{
     float:left;
@@ -130,6 +130,7 @@ main {
     width:750px;
 }
 
+/*Bloggposterna */
 .blogg {
    background-color:#fff;
    margin-bottom:10px;
@@ -138,6 +139,27 @@ main {
    -moz-border-radius:5px;
    -webkit-border-radius:5px;
 }
+.icon{
+    float:left;
+}
+.blog_overskrift{
+    font-size:16px;
+    font-family:Verdana;
+    color:#666600;
+}
+.blog_underskrift {
+    margin-top:5px;
+    font-size:10px;
+    font-family:Verdana;
+    color:#666600;
+}
+.bloginlagg {
+    padding:9px;
+    font-family:Verdana;
+    color:#666600;
+}
+
+/*Sidobarerna */
 .top {
     float:left;
     width:210px;
@@ -168,4 +190,16 @@ main {
     border-radius:5px;
    -moz-border-radius:5px;
    -webkit-border-radius:5px;
+}
+.rubrik {
+    font-size:16px;
+    text-decoration:underline;
+    font-family:Verdana;
+    color:#666600;
+    
+}
+.asidecontent {
+    font-size:12px;
+    font-family:Verdana;
+    color:#666600;
 }
