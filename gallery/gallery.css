@@ -1,0 +1,96 @@
+body {
+    
+    background-color:#c94;
+}
+#container {
+    width:1100px;
+    margin:50px;
+    
+}
+#images {
+    float:left;
+    width:1000px;
+}
+#images a 
+{
+    color: #000;
+    background-color: #FFF;
+    text-decoration: none;
+    text-align: left;
+    font-size: 13px;
+    display: block;
+    float: left;
+    padding: 12px; 
+    -webkit-transform: rotate(-4deg);
+    -moz-transform: rotate(-4deg);
+    transform: rotate(-4deg);
+    -webkit-transition: -webkit-transform 0.7s linear;
+    -moz-transition: -moz-transform 0.7s linear;
+    transition: transform 0.7s linear;
+    -webkit-box-shadow: 10px 10px 6px rgba(0,0,0,.26);
+    -moz-box-shadow: 0 3px 6px rgba(0,0,0,.26);
+}
+#images a:nth-child(even) 
+{
+    -webkit-transform: rotate(6deg);
+    -moz-transform: rotate(6deg);
+     transform: rotate(6deg);
+     color: blue;
+     font-family:'Indie Flower', cursive;
+     font-size: 14px;
+}
+#images a:nth-child(3n)
+{    
+    -webkit-transform: rotate(-8deg);
+    -moz-transform: rotate(-8deg);
+    transform: rotate(-8deg);
+    position: relative;
+    top: -1px;
+    color: Red;
+    font-family:Verdana;
+    font-size: 13px;
+}
+#images a:nth-child(5n) 
+{
+    -webkit-transform: rotate(12deg);
+    -moz-transform: rotate(12deg);
+    transform: rotate(12deg);
+    position: relative;
+    margin-right:5px;
+    color: blue;
+    font-size: 10px;
+    
+}
+#images a:hover
+{
+    -webkit-transform: scale(1.30);
+    -moz-transform: scale(1.30);
+    transform: scale(1.30);
+    position: relative;
+    z-index:5;
+}
+#images a:focus
+{
+   -webkit-transform: scale(1.30);
+    -moz-transform: scale(1.30);
+    transform: scale(1.30);
+    position: relative;
+    z-index:5; 
+    font-weight:bold;
+}
+#images a:after
+{
+    content: attr(title);
+    display:block;
+    width:210px;
+}
+
+
+#images a:hover, #images a:focus 
+{
+    -webkit-box-shadow: 3px 3px 10px rgba(0,0,0,.8);
+    -moz-box-shadow: 3px 3px 10px rgba(0,0,0,.8);
+    box-shadow: 3px 3px 10px rgba(0,0,0,.8);
+}
+
+
