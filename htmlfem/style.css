@@ -78,13 +78,14 @@ body {
 .top_h1 {
     float:left;
     margin:30px 0 0px 20px;
-    font-size:24px;
+    font-size:28px;
+    color:#fff;
     font-weight:bold;
     font-family:Verdana;
 }
 nav  {
     clear:both;
-    height:60px;
+    height:50px;
 }
 nav ul {
     list-style:none;
@@ -133,7 +134,7 @@ main {
 /*Bloggposterna */
 .blogg {
    background-color:#fff;
-   margin-bottom:10px;
+   margin-bottom:8px;
    padding:10px 10px;
    border-radius:5px;
    -moz-border-radius:5px;
@@ -143,63 +144,76 @@ main {
     float:left;
 }
 .blog_overskrift{
-    font-size:16px;
+    font-size:20px;
     font-family:Verdana;
     color:#666600;
 }
 .blog_underskrift {
-    margin-top:5px;
-    font-size:10px;
-    font-family:Verdana;
+    text-align:right;
+    height:15px;
+    font-size:11px;
+    font-style:italic;
+    font-family:Arial;
     color:#666600;
 }
 .bloginlagg {
-    padding:9px;
     font-family:Verdana;
     color:#666600;
+   
 }
 
 /*Sidobarerna */
-.top {
+.box {
     float:left;
     width:210px;
     background-color:#fff;
     margin-left:10px;
+    margin-bottom:10px;
     padding:10px 10px;
     border-radius:5px;
    -moz-border-radius:5px;
    -webkit-border-radius:5px;
 
 }
-.middle{
-    float:left;
-    width:210px;
-    background-color:#fff;
-    margin-left:10px;
-    margin-top:10px;
-    padding:10px 10px;
-    border-radius:5px;
-   -moz-border-radius:5px;
-   -webkit-border-radius:5px;
-}
-.mainfooter{
-    clear:both;
-    background-color:#fff;
-    margin-top:10px;
-    padding:10px 10px;
-    border-radius:5px;
-   -moz-border-radius:5px;
-   -webkit-border-radius:5px;
-}
+
 .rubrik {
     font-size:16px;
     text-decoration:underline;
     font-family:Verdana;
     color:#666600;
+    margin-bottom:4px;
     
 }
 .asidecontent {
     font-size:12px;
     font-family:Verdana;
     color:#666600;
+}
+footer{
+    clear:both;
+    background-color:#fff;
+    height:80px;
+    margin-top:10px;
+    padding:10px 10px;
+    border-radius:5px;
+   -moz-border-radius:5px;
+   -webkit-border-radius:5px;
+}
+
+/* Bilder */
+.img_right{
+     float:right;   
+}
+.img_left{
+    
+    display:inline-block;
+}
+
+/* Länkar */
+a {
+     text-decoration:none; 
+     color:#c9f;
+}
+.full_lank{
+    display:none;
 }
