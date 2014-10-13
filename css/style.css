@@ -144,9 +144,18 @@ body {
     background-position:0px -48px;
 }
 
+#right_hcard{
+    float:right;
+    width:350px;
+    background-color:#ccc;
+    padding:5px;
+    border:2px solid #000;
+    
+}
+
 /* Formulär på kontaktsidan */
 fieldset {
-    width:500px;
+    width:350px;
     padding:20px 0 20px 50px;
     border:1px solid #000;
 
@@ -214,6 +223,7 @@ legend {
 .full_lank{
     display:none;
 }
+
 
 /*Typografi på sidan */
 
